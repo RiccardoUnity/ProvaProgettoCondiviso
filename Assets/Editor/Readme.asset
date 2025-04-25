@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b71f66fd8771a747b9f910796b337a3, type: 3}
   m_Name: Readme
   m_EditorClassIdentifier: 
-  testoDiBenvenuto: "Metto qualcosa di importante da dire qui. Cerchiamo di lavorare
-    tutti in una cartella dedicata per evitare conflitti, tanto questo \xE8 solo
-    un progetto per provare."
+  testoDiBenvenuto: "Cerchiamo di lavorare tutti in una cartella dedicata per evitare
+    conflitti, tanto questo \xE8 solo un progetto per provare. Qui sotto ho creato
+    un array di stringhe, chi vuole suggerire un nome per cambiare il nome al progetto
+    lo scriva qui.(Non so se possa funzionare ... forse no) "
+  cambioNomeProgetto: []

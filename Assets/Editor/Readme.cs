@@ -6,6 +6,11 @@ using UnityEngine;
 public class Readme : ScriptableObject
 {
     [TextArea(10, 30)]
-    public string testoDiBenvenuto = "Metto qualcosa di importante da dire qui. " 
-        + "Cerchiamo di lavorare tutti in una cartella dedicata per evitare conflitti, tanto questo è solo un progetto per provare.";
+    public string testoDiBenvenuto = "" 
+        + "Cerchiamo di lavorare tutti in una cartella dedicata per evitare conflitti, tanto questo è solo un progetto per provare. "
+        + "Qui sotto ho creato un array di stringhe, chi vuole suggerire un nome per cambiare il nome al progetto lo scriva qui."
+        + "(Non so se possa funzionare ... forse no) ";
+
+    [Header("Sondaggio")]
+    public string[] cambioNomeProgetto;
 }
